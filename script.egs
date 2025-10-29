@@ -1,0 +1,19 @@
+const input = website.getElement.byId("Input");
+input.value =
+`<!DOCTYPE HTML>
+<html>
+<head>
+    <title>HTML Site</title>
+    <meta charset="UTF-8">
+    <meta Name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+</body>
+</html>
+`;
+
+const output = website.getElement.byId("Output");
+
+waitAndLoop(() => {
+    output.value = `data:text/html,${input.value}`;
+}, 100);

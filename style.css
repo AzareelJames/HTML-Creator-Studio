@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(66, 66, 66);
+}
+
+
+#Input{
+    background-color: black;
+    color: orange;
+
+    resize: none;
+    width: 50em;
+    height: 30em;
+
+
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+#Output{
+    font-size: 1.5em;
+
+    width: 1000px;
+
+    position: absolute;
+    left: 100px;
+    top: 800px;
+}
+
+#End{
+    position: absolute;
+    left: 300px;
+    top: 3000px;
+}
+
+#copy{
+    font-size: 1.5em;
+    color: white;
+
+    position: absolute;
+    left: 300px;
+    top: 700px;
+}
+
+#logo{
+    position: absolute;
+    left: 300px;
+    top: 1500px;
+}
