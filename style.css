@@ -18,12 +18,13 @@ body{
 }
 
 #Output{
+    cursor: pointer;
     font-size: 1.5em;
 
-    width: 1000px;
+    width: 300px;
 
     position: absolute;
-    left: 100px;
+    left: 350px;
     top: 800px;
 }
 
