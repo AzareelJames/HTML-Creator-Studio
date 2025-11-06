@@ -1,3 +1,5 @@
+const ls = storage.local;
+
 const input = website.getElement.byId("Input");
 input.value =
 `<!DOCTYPE HTML>
@@ -15,5 +17,7 @@ input.value =
 const output = website.getElement.byId("Output");
 
 waitAndLoop(() => {
-    output.value = `data:text/html,${input.value}`;
+    ls.setItem("html", input.value);
 }, 100);
+
+output.onclick = () => website.open("preview.html");
