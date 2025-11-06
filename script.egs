@@ -13,7 +13,7 @@ if(ls.getItem("html") === null){
 <body>
 </body>
 </html>
-`;
+`
 )
 }
 
@@ -26,4 +26,5 @@ waitAndLoop(() => {
 }, 100);
 
 output.onclick = () => website.open("preview.html");
+
 
